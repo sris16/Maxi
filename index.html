@@ -11,5 +11,18 @@
       <a href="table.html"target="_self">about table</a>
       <br>
       <a href="form.html"target="_self">about form</a>
+      <audio src="Kanimaa.mp3" controls></audio>
+      <script>console.log("tatake")</script>
+      <input type="text" id="name">
+      <button onclick=showName()>click</button>
+      <h1 id="result">Hiiii</h1>
+      <script>
+        function showName()
+        {
+            const name=document.getElementById ('name').value
+            document.getElementById('result').innerText=`Hello ${name}`
+        }
+      </script>
+      
 </body>
 </html>

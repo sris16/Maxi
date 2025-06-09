@@ -1,0 +1,108 @@
+.parent p{
+            font-family: cursive;
+            letter-spacing: 50px;
+            text-transform: capitalize;
+            text-decoration: overline;
+            text-shadow: 5000cm;
+            text-overflow: ellipsis;
+            text-wrap:Helo;
+            
+        }
+        p:hover{
+            color: hotpink;
+            background-color: burlywood;
+
+        }
+        .border{
+            border: 2px solid blueviolet;
+            border-radius: 15px;
+            padding: 20px;  
+            border-style:dotted;           
+        }  
+        .margin
+        {
+            border: 3px solid aqua;
+            margin: 50px;
+            padding: 10px 5px 20px 15px;
+        }
+        .relative
+        {
+            position: relative;
+            top: 40px;
+            left: 50px;
+        }
+        .position
+        {
+            border: 3px solid burlywood;
+            height: 100vh;
+
+        }
+        .page
+        {
+            height: 100vh;
+        }
+        .fixed
+        {
+            position: fixed;
+            left: 160px;
+        }
+        .display
+        {
+            display: block;
+        }
+        .inline
+        {
+            display: block;
+        }
+        .flex-container
+        {
+            display: flex;
+            justify-content: start;
+            padding: 15px;
+        }
+        .items
+        {
+            height: 100px;
+            width: 100px;
+        }
+        .flex-container div
+        {
+            height: 100px;
+            width: 100px;
+
+        }
+        .two
+        {
+            flex-shrink: 0;
+        }
+        .grid-container
+        {
+            display: grid;
+            grid-template-rows: 50px 50px 50px;
+            grid-template-columns: 50px 50px 50px;
+            /* row-gap: 100px;
+            column-gap: 100px; */
+        }
+        .grid-container
+        div
+        {
+            border: 2px solid rgb(236, 12, 12);
+
+        }
+        .four
+        {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 4;
+        }
+        @media (max-width:468px)
+        {
+            .flex-container
+            {
+                display: flex;
+                flex-direction: column;
+                color: aqua;
+            }
+            
+        }
